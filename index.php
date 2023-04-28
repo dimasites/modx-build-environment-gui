@@ -46,7 +46,7 @@ if (!isset($_REQUEST['getpackage']) && empty($_REQUEST['getpackage'])) {
 
     define('MODX_CORE_PATH', MODX_BASE_PATH . 'core/');
 
-    echo $file = MODX_CORE_PATH.'packages/'.$_REQUEST['getpackage'].'.transport.zip';
+    $file = MODX_CORE_PATH.'packages/'.$_REQUEST['getpackage'].'.transport.zip';
     if (file_exists($file)) {
         header('Content-Description: File Transfer');
         header('Content-Type: application/octet-stream');
