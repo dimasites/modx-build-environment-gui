@@ -10,7 +10,7 @@ if (!isset($_REQUEST['getpackage']) && empty($_REQUEST['getpackage'])) {
     $current_dir = dirname(__FILE__,2);//go to ./_build/ dir
 
     $scanned_directory = array_diff(scandir($current_dir), array('..', '.'));
-    echo "<html><body style='background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);font-size: 22px;'>";
+    echo "<html><body style='background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);font-size: 20px; font-family: sans-serif, serif;'>";
     echo "<h1>MODX build environment GUI</h1>";
     echo "<b>Available packages for build:</b> (with versions from build.config.php if exists)<br/><br/>";
     //echo "<b>Данные о версии берутся из файла конфигурации пакета</b> (build.config.php)<br/><br/>";
@@ -29,7 +29,7 @@ if (!isset($_REQUEST['getpackage']) && empty($_REQUEST['getpackage'])) {
             if (preg_match($release_preg, $config, $matches)) {
                 $version .= '-'.$matches[1];
             }
-            echo "<b>• {$packagename}</b>&nbsp;<a target='_blank' href='/_build/{$packagename}/build.transport.php'>[build package]</a> (".$version.")<br/><br/>";
+            echo "<b>• {$packagename}</b>&nbsp;<a target='_blank' style='text-decoration: none;' href='/_build/{$packagename}/build.transport.php'>[build package]</a> (".$version.")<br/><br/>";
         }
     }
     echo "</body>";
