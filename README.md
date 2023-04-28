@@ -10,6 +10,8 @@ Just add this repo as git submodule (see docs: [EN](https://book.git-scm.com/boo
 * URL: https://github.com/dimasites/modx-build-environment-gui
 * Folder: _build/env
 
+(or [see this commit](https://github.com/dimasites/modx-ckeditor/commit/e159384a66b9bb4a45fc6094158af3f15b412df5) for reference to manual additions)
+
 ![Screenshot with GUI](https://raw.githubusercontent.com/dimasites/modx-build-environment-gui/main/assets/screenshot-2-add-submodule.png)
 (very simple to add with [fork](https://git-fork.com/) (in screnshot) or [sourcetree](https://sourcetreeapp.com/) git GUI)
 
