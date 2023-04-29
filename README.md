@@ -3,6 +3,7 @@
 Add simple and useful GUI for improve your dev experience and make contributing on MOX packages more comfortable and fast:
 
 ![Screenshot with GUI](https://raw.githubusercontent.com/dimasites/modx-build-environment-gui/main/assets/screenshot-1-view-demo.png)
+*packages sst on screenshot is just example, you list will be shown based on subfolders of **./_build/** directory*
 
 ## How to use
 Just add this repo as git submodule (see docs: [EN](https://book.git-scm.com/book/en/v2/Git-Tools-Submodules) | [RU](https://book.git-scm.com/book/ru/v2/%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B-Git-%D0%9F%D0%BE%D0%B4%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8) ) to to your package in folder named "env" as subfolder for ./_build/ ditectory:
@@ -10,10 +11,8 @@ Just add this repo as git submodule (see docs: [EN](https://book.git-scm.com/boo
 * URL: https://github.com/dimasites/modx-build-environment-gui
 * Folder: _build/env
 
-(or [see this commit](https://github.com/dimasites/modx-ckeditor/commit/e159384a66b9bb4a45fc6094158af3f15b412df5) for reference to manual additions)
-
+I recommend very simple add with git GUI [fork](https://git-fork.com/) (on screnshot) or [sourcetree](https://sourcetreeapp.com/) *(or [see this commit](https://github.com/dimasites/modx-ckeditor/commit/e159384a66b9bb4a45fc6094158af3f15b412df5) for reference to manual code additions)*
 ![Screenshot with GUI](https://raw.githubusercontent.com/dimasites/modx-build-environment-gui/main/assets/screenshot-2-add-submodule.png)
-(very simple to add with [fork](https://git-fork.com/) (in screnshot) or [sourcetree](https://sourcetreeapp.com/) git GUI)
 
 And then, go to url **/_build/env** URL on your MODX installation for using this super-multi-fucntional (in future i hope) GUI :)
 
