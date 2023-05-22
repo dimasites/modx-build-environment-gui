@@ -1,9 +1,9 @@
 # MODX build environment GUI
 
-Add simple and useful GUI for improve your dev experience and make contributing on MOX packages more comfortable and fast:
+Add simple and useful GUI for improve your dev experience and make contributing on MODX packages more comfortable and fast:
 
 ![Screenshot with GUI](https://raw.githubusercontent.com/dimasites/modx-build-environment-gui/main/assets/screenshot-1-view-demo.png)
-*packages sst on screenshot is just example, you list will be shown based on subfolders of **./_build/** directory*
+*packages on screenshot is just example, your list will be shown based on subfolders of **./_build/** directory*
 
 ## How to use
 Just add this repo as git submodule (see docs: [EN](https://book.git-scm.com/book/en/v2/Git-Tools-Submodules) | [RU](https://book.git-scm.com/book/ru/v2/%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B-Git-%D0%9F%D0%BE%D0%B4%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8) ) to to your package in folder named "env" as subfolder for ./_build/ ditectory:
