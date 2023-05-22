@@ -14,7 +14,7 @@ Just add this repo as git submodule (see docs: [EN](https://book.git-scm.com/boo
 I recommend very simple add with git GUI [fork](https://git-fork.com/) (on screnshot) or [sourcetree](https://sourcetreeapp.com/) *(or [see this commit](https://github.com/dimasites/modx-ckeditor/commit/e159384a66b9bb4a45fc6094158af3f15b412df5) for reference to manual code additions)*
 ![Screenshot with GUI](https://raw.githubusercontent.com/dimasites/modx-build-environment-gui/main/assets/screenshot-2-add-submodule.png)
 
-And then, go to **/_build/env** URL on your MODX installation for using this super-multi-fucntional (in future i hope) GUI :)
+And then, go to **/_build/env** URL on your MODX installation for using this super-multi-functional (in future i hope) GUI :)
 
 This GUI will be useful especially if you uploading your package files into root folder of you MODX installation! 
 
