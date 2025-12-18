@@ -14,7 +14,7 @@
 * URL: https://github.com/dimasites/modx-build-environment-gui
 * Папка: _build/env
 
-Я рекомендую добавить через простой GIT GUI [fork](https://git-fork.com/) (on screnshot) или [sourcetree](https://sourcetreeapp.com/) *(или [см. эттот commit](https://github.com/dimasites/modx-ckeditor/commit/e159384a66b9bb4a45fc6094158af3f15b412df5) for reference to manual code additions)*
+Я рекомендую добавить через простой GIT GUI [fork](https://git-fork.com/) (on screnshot) или [sourcetree](https://sourcetreeapp.com/) *(или [см. эттот commit](https://github.com/dimasites/modx-ckeditor/commit/e159384a66b9bb4a45fc6094158af3f15b412df5) в качестве образца для добавления кода вручную)*
 ![Скриншот как добавить через GIT GUI](https://raw.githubusercontent.com/dimasites/modx-build-environment-gui/main/assets/screenshot-2-add-submodule.png)
 
 Затем залей файлы туда, где собираешь пакет, затем иди по URL **/_build/env** на твоём билд-MODX-сайте и используй этот супер функциональный GUI (надеюсь он станет таким в будущем) :)
@@ -39,4 +39,5 @@ $modx->log(modX::LOG_LEVEL_INFO,"\n<br /><a target='_blank' href='{$download_url
 
 ---
 
-Лиценизя открытая: Дмитрий Касаткин (aka @dimasites) <dimasites@yandex.com> -- можете свободно использовать в своих проектах, в т.ч. коммерческих.
+Лицензия открытая: GPL.
+Автор: Дмитрий Касаткин (aka @dimasites) <dimasites@yandex.com> -- можете свободно использовать в своих проектах, в т.ч. коммерческих.
