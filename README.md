@@ -1,4 +1,6 @@
 # MODX build environment GUI
+Language: [![en](https://img.shields.io/badge/readme-EN-BBB.svg)](https://github.com/dimasites/modx-build-environment-gui/blob/master/README.md)
+[![ru](https://img.shields.io/badge/readme-RU-blue.svg)](https://github.com/dimasites/modx-build-environment-gui/blob/master/README.ru.md)
 
 Add simple and useful GUI for improve your dev experience and make contributing on MODX packages more comfortable and fast:
 
