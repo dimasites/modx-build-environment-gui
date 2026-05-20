@@ -1,6 +1,6 @@
 # Среда сборки MODX с графическим интерфейсом
-Язык: [![en](https://img.shields.io/badge/readme-EN-blue.svg)](https://github.com/dimasites/modx-build-environment-gui/blob/master/README.md)
-[![ru](https://img.shields.io/badge/readme-RU-BBB.svg)](https://github.com/dimasites/modx-build-environment-gui/blob/master/README.ru.md)
+Язык: [![en](https://img.shields.io/badge/readme-EN-blue.svg)](https://github.com/dimasites/modx-build-environment-gui/blob/main/README.md)
+[![ru](https://img.shields.io/badge/readme-RU-BBB.svg)](https://github.com/dimasites/modx-build-environment-gui/blob/main/README.ru.md)
 
 Добавьте простой и удобный графический интерфейс для улучшения вашего опыта разработки и сделайте внесение изменений в пакеты MODX более удобным и быстрым:
 
